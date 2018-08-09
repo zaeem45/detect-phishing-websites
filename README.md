@@ -3,22 +3,21 @@
 Using turicreate.
 
 
-## Install
-`pip install virtualenv`
+## Run
 
-`cd ~`
-
-`virtualenv venv`
-
-`source ~/venv/bin/activate`
-
-`pip install -U turicreate`
-
+  ```terminal
+  $ git clone https://github.com/danrevah/detect-phishing-websites.git
+  $ cd detect-phishing-websites
+  $ pip install virtualenv
+  $ source venv/bin/activate
+  $ pip install -r requirements.txt
+  $ python script.py
+  ```
  
 ## DataSet
 
 #### Source
-Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Phishing+Websites#
+Was taken from the 'Machine Learning Repository' (https://archive.ics.uci.edu/ml/datasets/Phishing+Websites)
 
 #### Attributes: 
  * having_IP_Address  { -1,1 } 
