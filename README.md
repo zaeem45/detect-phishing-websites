@@ -1,9 +1,16 @@
-# Phishing website detection with Machine Learning
+# Phishing website detection
 
-Using turicreate.
+This project was created using turicreate machine learning algorithms. The data set was taken from the 'Machine Learning Repository'.
 
 
-## Run
+Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
+
+turicreate: https://github.com/apple/turicreate
+
+## Example
+
+
+## Execute
 
   ```terminal
   $ git clone https://github.com/danrevah/detect-phishing-websites.git
