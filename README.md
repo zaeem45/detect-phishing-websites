@@ -9,6 +9,45 @@ turicreate: https://github.com/apple/turicreate
 
 ## Example
 
+```terminal
+  $ python script.py
+  
+  [1] Boosted decision tree
+  [2] Decision tree
+  [3] Nearest neighbour
+  
+  Select ML Algorithm: 1
+  
+  Finished parsing file dataset.csv
+  Parsing completed. Parsed 100 lines in 0.041388 secs.
+  ------------------------------------------------------
+  Inferred types from first 100 line(s) of file as
+  column_type_hints=[int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int]
+  If parsing fails due to incorrect types, you can correct
+  the inferred type list above and pass it to read_csv in
+  the column_type_hints argument
+  ------------------------------------------------------
+  Finished parsing file dataset.csv
+  Parsing completed. Parsed 11055 lines in 0.035361 secs.
+  PROGRESS: Creating a validation set from 5 percent of training data. This may take a while.
+            You can set ``validation_set=None`` to disable validation tracking.
+  
+  Boosted trees classifier:
+  --------------------------------------------------------
+  Number of examples          : 8365
+  Number of classes           : 2
+  Number of feature columns   : 30
+  Number of unpacked features : 30
+  +-----------+--------------+-------------------+---------------------+-------------------+---------------------+
+  | Iteration | Elapsed Time | Training-accuracy | Validation-accuracy | Training-log_loss | Validation-log_loss |
+  +-----------+--------------+-------------------+---------------------+-------------------+---------------------+
+  | 1         | 0.012667     | 0.909265          | 0.892019            | 0.505161          | 0.509974            |
+  | 2         | 0.019960     | 0.917753          | 0.908451            | 0.401738          | 0.406688            |
+  +-----------+--------------+-------------------+---------------------+-------------------+---------------------+
+  
+  
+  >>> Accuracy         : 0.9165194346289752
+```
 
 ## Execute
 
