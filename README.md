@@ -61,11 +61,8 @@ turicreate: https://github.com/apple/turicreate
   ```
  
 ## DataSet
+ Is based on the following attributes: 
 
-#### Source
-Was taken from the 'Machine Learning Repository' (https://archive.ics.uci.edu/ml/datasets/Phishing+Websites)
-
-#### Attributes: 
  * having_IP_Address  { -1,1 } 
  * URL_Length   { 1,0,-1 } 
  * Shortining_Service { 1,-1 } 
