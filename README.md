@@ -24,6 +24,7 @@ turicreate: https://github.com/apple/turicreate
   [1] Boosted decision tree
   [2] Decision tree
   [3] Nearest neighbour
+  [4] Logistic regression
   
   Select ML Algorithm: 1
   
