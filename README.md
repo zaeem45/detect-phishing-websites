@@ -7,7 +7,7 @@ Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Phishing+We
 
 turicreate: https://github.com/apple/turicreate
 
-## Example
+## Script
 
 ```terminal
   $ python script.py
