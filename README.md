@@ -9,6 +9,11 @@ Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Phishing+We
 
 turicreate: https://github.com/apple/turicreate
 
+## Accuracy Results
+
+1. Logistic Regression => 
+2. K Nearest Neighbour => 
+
 ## Script
 
 ```terminal
@@ -60,7 +65,7 @@ turicreate: https://github.com/apple/turicreate
   $ source venv/bin/activate
   $ pip install -r requirements.txt
   $ python script.py
-  ```
+  ``` 
  
 ## DataSet
 Based on the following attributes: 
