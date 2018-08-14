@@ -1,6 +1,8 @@
 # Phishing website detection
 
-This project was created using turicreate machine learning algorithms. The data set was taken from the 'Machine Learning Repository'.
+This project was created using machine learning algorithms with turicreate. 
+
+Data set in this experiment was taken from the 'Machine Learning Repository'.
 
 
 Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
@@ -49,7 +51,7 @@ turicreate: https://github.com/apple/turicreate
   >>> Accuracy         : 0.9165194346289752
 ```
 
-## Execute
+## Usage
 
   ```terminal
   $ git clone https://github.com/danrevah/detect-phishing-websites.git
@@ -61,7 +63,7 @@ turicreate: https://github.com/apple/turicreate
   ```
  
 ## DataSet
- Is based on the following attributes: 
+Based on the following attributes: 
 
  * having_IP_Address  { -1,1 } 
  * URL_Length   { 1,0,-1 } 
