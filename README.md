@@ -51,7 +51,7 @@ turicreate: https://github.com/apple/turicreate
   >>> Accuracy         : 0.9165194346289752
 ```
 
-## Execute
+## Usage
 
   ```terminal
   $ git clone https://github.com/danrevah/detect-phishing-websites.git
