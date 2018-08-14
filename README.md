@@ -1,6 +1,8 @@
 # Phishing website detection
 
-This project was created using turicreate machine learning algorithms. The data set was taken from the 'Machine Learning Repository'.
+This project was created using machine learning algorithms with turicreate. 
+
+Data set in this experiment was taken from the 'Machine Learning Repository'.
 
 
 Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
