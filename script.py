@@ -27,7 +27,7 @@ try:
 
     num = int(input("Select ML Algorithm: "))
 
-    if not num or num < 1 or num > 3:
+    if not num or num < 1 or num > 4:
         raise ValueError()
 
     accuracy = execute(num)
