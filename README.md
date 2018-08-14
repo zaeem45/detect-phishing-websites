@@ -11,8 +11,10 @@ turicreate: https://github.com/apple/turicreate
 
 ## Accuracy Results
 
-1. Logistic Regression => 
-2. K Nearest Neighbour => 
+1. Boosted Decision Tree = 0.913~  (Lowest)
+2. Decision Tree         = 0.926~
+3. K Nearest Neighbour   = 0.939~ (Highest)
+4. Logistic Regression   = 0.928~ 
 
 ## Script
 
