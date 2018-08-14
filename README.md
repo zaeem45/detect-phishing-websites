@@ -63,7 +63,7 @@ turicreate: https://github.com/apple/turicreate
   ```
  
 ## DataSet
- Is based on the following attributes: 
+Based on the following attributes: 
 
  * having_IP_Address  { -1,1 } 
  * URL_Length   { 1,0,-1 } 
