@@ -15,9 +15,7 @@ def execute(algo):
         model = tc.logistic_classifier.create(train_data, target='Result')
 
     predictions = model.classify(test_data)
-    results = model.evaluate(test_data)
-
-    return results['accuracy']
+    return model.evaluate(test_data)
 
 try:
     print("[1] Boosted decision tree\n"
@@ -30,8 +28,11 @@ try:
     if not num or num < 1 or num > 4:
         raise ValueError()
 
-    accuracy = execute(num)
-    print("\n\n\n>>> Accuracy         : %s" % accuracy)
+    results = execute(num)
+    print("\n\n\n>>> Accuracy\t: %s" % results['accuracy'])
+    print(">>> Precision\t: %s" % results['precision'])
+    print(">>> Recall\t: %s" % results['recall'])
+    print(">>> F1 Score\t: %s" % results['f1_score'])
 
 except ValueError:
     print("\nError: Please select a number between 1 to 3.")
